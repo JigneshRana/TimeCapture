@@ -28,12 +28,6 @@ cd TimeCapture
 TimeCapture$ python3 appy.py
 ```
 
-## How To Run As Single File
-```sh
-cd TimeCapture/dist
-TimeCapture/dist$ ../CaptureV2
-```
-
 ## Create Single Executable File for Linux 
 ```sh
 cd TimeCapture
@@ -42,3 +36,12 @@ TimeCapture$ pyinstaller --onefile --add-data 'capture.py:.' --add-data 'util.py
 # Note: if pyinstaller in not installed, then you have to install it on your computer.
 # Documentation for pyinstaller https://pypi.org/project/pyinstaller/
 ```
+
+
+## Once Executable File is created , run the file as below
+## How To Run As Single File
+```sh
+cd TimeCapture/dist
+TimeCapture/dist$ ../CaptureV2
+```
+
