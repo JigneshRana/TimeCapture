@@ -21,3 +21,24 @@ options={"Mouse":True,"KeyBorad":True,"ScreenShot":True,"ImageTimeInSec":10,"Ide
 + ScreenShot = True / False : To Capture Screen Shot , Keep it True
 + ImageTimeInSec = Time In Seconds : This is Time Internal in Seconds. As per the setting it captures Screenshot in every 10 seconds.
 + IdealTimeOutSec: Configure Ideal Time in seconds. so It will popos up message to user, if screen is ideal for more than 30 seconds.
+
+## How To Run
+```sh
+cd TimeCapture
+TimeCapture$ python3 appy.py
+```
+
+## How To Run As Single File
+```sh
+cd TimeCapture/dist
+TimeCapture/dist$ ../CaptureV2
+```
+
+## Create Single Executable File for Linux 
+```sh
+cd TimeCapture
+TimeCapture$ pyinstaller --onefile --add-data 'capture.py:.' --add-data 'util.py:.' --add-data 'settings.py:.'  --hidden-import "pynput.keyboard._xorg" --hidden-import "pynput.mouse._xorg" appy.py --name CaptureV2
+
+# Note: if pyinstaller in not installed, then you have to install it on your computer.
+# Documentation for pyinstaller https://pypi.org/project/pyinstaller/
+```

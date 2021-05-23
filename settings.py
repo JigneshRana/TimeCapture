@@ -1,0 +1,1 @@
+options={"Mouse":True,"KeyBorad":True,"ScreenShot":True,"ImageTimeInSec":10,"IdealTimeOutSec":30}
