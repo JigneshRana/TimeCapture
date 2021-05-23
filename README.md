@@ -47,20 +47,10 @@ TimeCapture/dist$ ../CaptureV2
 
 ## Dependancy Modules
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
-
-
 | Plugin | Use Case | Documentation |
-| ------ | ------ |
-| pyautogui | Capture Screenshot | [https://github.com/asweigart/pyautogui/blob/master/README.md][PlDb] |
-| threading | Thread Managment | [https://docs.python.org/3/library/threading.html][PlGh] |
-| tkinter | Widget or GUI | [https://docs.python.org/3/library/tkinter.html][PlGd] |
-| pynput | Keyboard and Mouse Tracking | [https://pypi.org/project/pynput/][PlOd] |
+| ------ | ------ |------ |
+| pyautogui | Capture Screenshot | [https://github.com/asweigart/pyautogui/blob/master/README.md] |
+| threading | Thread Managment | [https://docs.python.org/3/library/threading.html] |
+| tkinter | Widget or GUI | [https://docs.python.org/3/library/tkinter.html] |
+| pynput | Keyboard and Mouse Tracking | [https://pypi.org/project/pynput/] |
 
