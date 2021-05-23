@@ -45,3 +45,11 @@ cd TimeCapture/dist
 TimeCapture/dist$ ../CaptureV2
 ```
 
+## Dependancy Modules
+| Plugin | Use Case | Documentation |
+| ------ | ------ |
+| pyautogui | Capture Screenshot | [https://github.com/asweigart/pyautogui/blob/master/README.md][PlDb] |
+| threading | Thread Managment | [https://docs.python.org/3/library/threading.html][PlGh] |
+| tkinter | Widget or GUI | [https://docs.python.org/3/library/tkinter.html][PlGd] |
+| pynput | Keyboard and Mouse Tracking | [https://pypi.org/project/pynput/][PlOd] |
+
